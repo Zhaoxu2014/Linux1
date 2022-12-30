@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hello World | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="部分学习笔记Linux的一些基础命令1、cd：切换目录命令（cd &#x2F;home）2、ls ：列出目录的文件信息（ls -l）3、cat ：查看文件全部内容（cat test.txt）4、tail ：查看文件指定行数内容（tail -n 10 test.txt）5、touch：创建文件（touch test.txt）6、mkdir：创建文件夹（mkdir testdir）7、cp：复制文件或文件夹（c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="http://example.com/2022/12/29/hello-world/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="部分学习笔记Linux的一些基础命令1、cd：切换目录命令（cd &#x2F;home）2、ls ：列出目录的文件信息（ls -l）3、cat ：查看文件全部内容（cat test.txt）4、tail ：查看文件指定行数内容（tail -n 10 test.txt）5、touch：创建文件（touch test.txt）6、mkdir：创建文件夹（mkdir testdir）7、cp：复制文件或文件夹（c">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/e52312d1699548f99d8774a8f66d8f5a.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/35bbe15cfd7146b3b861a8e7adbc594a.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/ee0d5382f6c144d18f76919e58693141.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/30cb4eb2010f5c681a161e54b92544ad.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/ca596758faa7a636beae28c00f1125d5.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/a2f31791676125ef8f476bfef53b7523.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/2394508a892404f3d9b0d955e6d2981c.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/4185497e420e6219086673ce4cdab2a8.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/54ac96bd9976ece7a6c1f5150fe2893d.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/4e964b14d656cf9c93b4085567048097.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/83a8695156c596f794237ec917fe398f.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/a0ad588d5b85e5ed2d6152b5042f30e3.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/10a20fc4bd4df699da7432d5ef6afb4b.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/13d3d8b69dfea681676e3776a83f3a3b.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/c13db2da875bf6a09fb50a142849186c.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/0ab4c7c54a7ef910f10dbe0c97ab3959.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/56e92f7393bd2eb1ce40405f2ada8321.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/d829ae0e704b96aea1d19f5214f904fe.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/28a932ad7894b74cb6ef6ce99b237574.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/acf78f765b37b3ca5f02fa402719be5b.png">
+<meta property="article:published_time" content="2022-12-30T04:49:22.217Z">
+<meta property="article:modified_time" content="2022-12-30T04:49:22.221Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/e52312d1699548f99d8774a8f66d8f5a.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2022/12/29/hello-world/" class="article-date">
+  <time datetime="2022-12-30T04:49:22.217Z" itemprop="datePublished">2022-12-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hello World
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="部分学习笔记"><a href="#部分学习笔记" class="headerlink" title="部分学习笔记"></a>部分学习笔记</h2><p><strong>Linux的一些基础命令</strong><br>1、cd：切换目录命令（cd /home）<br>2、ls ：列出目录的文件信息（ls -l）<br>3、cat ：查看文件全部内容（cat test.txt）<br>4、tail ：查看文件指定行数内容（tail -n 10 test.txt）<br>5、touch：创建文件（touch test.txt）<br>6、mkdir：创建文件夹（mkdir testdir）<br>7、cp：复制文件或文件夹（cp test.txt &gt; newtext.txt）<br>8、mv ：移动文件或文件夹（mv test.txt &gt; /dir）<br>9、rm：删除文件或文件夹（rm test.txt或rm -rf testdir）<br>10、find：查找文件（find / -name test.text）<br>11、vi：编辑文件（vi test.txt）<br>12、rename：文件重命名（rename test.txt  newtext.txt）<br>13、chmod：文件权限修改（chmod 777 text.txt）<br>14、history：最近历史执行过的命令（history）<br>15、wget：下载网络资源文件（wget <a target="_blank" rel="noopener" href="http://xzwk.cn/test.txt%EF%BC%89">http://xzwk.cn/test.txt）</a><br>16、top：查看资源实时用量情况（top）<br>17、logout：注销（logout）<br>18、reboot：重启（reboot）<br>19、shutdown： 定时关机（shutdown -s -t 3600 //3600秒后关机）<br>20、poweroff： 立即关机（poweroff）</p>
+<p><strong>Linux下编写C语言</strong><br>概念：Linux下C语言编程常用的编辑器是vim，编译器一般用gcc，编译链接程序用make，跟踪调试一般使用gdb，项目管理用makefile。<br>1、vim编辑hello.c<br>输入代码下载vim（sudo apt install vim）<br>下载完成后进入编辑界面，开始c程序编辑（vim hello.c）<br><img src="https://img-blog.csdnimg.cn/e52312d1699548f99d8774a8f66d8f5a.png" alt="csdn"><br>然后用esc退出编辑，输入wq，保存并退出</p>
+<p>2、gcc编译器的使用<br>概念：GCC 编译工具链（toolchain）是指以 GCC 编译器为核心的一整套工具，用于把源代码转化成可执行应用程序。<br>它主要包含以下三部分内容：<br>• gcc-core：即 GCC 编译器，用于完成预处理和编译过程，例如把 C 代码转换成汇编代码。<br>• Binutils ：除 GCC 编译器外的一系列小工具包括了链接器 ld，汇编器 as、目标文件格式查看器 readelf 等。<br>• glibc：包含了主要的 C 语言标准函数库， C 语言中常常使用的打印函数 printf、 malloc 函数就在 glibc 库中。linux系统默认安装了GCC 编译工具链，windows系统可以通过安装，使用GCC工具。<br>用以下四个指令查看编译结果：<br>$ gcc -E hello.c -o hello.i<br>$ gcc -S hello.i -o hello.s<br>$ gcc -c hello.s -o hello.s<br>$ gcc hello.o -o hello<br><img src="https://img-blog.csdnimg.cn/35bbe15cfd7146b3b861a8e7adbc594a.png" alt="csdn"><br>可以发现执行完后会在指定区域里面生成文件，生成了hello hello.c hello.i hello.o hello.s 5个文件<br><img src="https://img-blog.csdnimg.cn/ee0d5382f6c144d18f76919e58693141.png" alt="csdn"><br>用这个代码查看结果（./hello）</p>
+<h2 id="Linux操作系统大作业"><a href="#Linux操作系统大作业" class="headerlink" title="Linux操作系统大作业"></a>Linux操作系统大作业</h2><p><strong>实验内容和要求</strong><br>1.在Linux下，安装git，使用git管理大作业相关的代码、配置文件等，要求有能反映大作业过程的git提交记录。<br>2.在Linu2.在Linux下，运行系统监控，查看常见的系统资源占用例如CPU、内存、网络、硬盘IO等等。<br>a)加分项：使用持久性监控面板动态显示系统状态。<br>3.Hexo是一个静态网站生成器，官网为：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/%EF%BC%8C%E6%9F%A5%E9%98%85%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%EF%BC%8C%E5%9C%A8Linux%E4%B8%8B%EF%BC%8C%E5%AE%8C%E6%88%90%E4%BB%A5%E4%B8%8B%E5%86%85%E5%AE%B9%EF%BC%9A">https://hexo.io/zh-cn/，查阅相关资料，在Linux下，完成以下内容：</a><br>a)配置好Hexo相关环境<br>b)使用Markdown语法编写网站内容，至少要包含的内容：Linux课程中的学习笔记、大作业完成步骤记录，且要求有相关图片、代码或命令<br>c)使用Hexo，将上述内容生成静态网站，部署到Web服务器（如Nginx或Apache），访问Web服务器，测试可以正常访问。<br>以下加分项2选1：<br>d)加分项1：使用容器技术（如Docker或Podman）部署上述静态网站，测试可以正常访问。<br>e)加分项2：部署上述静态网站，使其可以公网访问，可以是自己的云服务器，或者一些免费的托管平台，如gitee pages、github pages。<br>4.加分项：录制视频，对大作业进行演示和讲解，如git log讲解、监控程序演示和讲解、静态网站演示、配置文件讲解等，视频配有每个步骤的语音讲解，讲解越详细加分越多。<br><strong>实验步骤</strong><br>1、安装git<br><img src="https://img-blog.csdnimg.cn/img_convert/30cb4eb2010f5c681a161e54b92544ad.png" alt="csdn"><br><img src="https://img-blog.csdnimg.cn/img_convert/ca596758faa7a636beae28c00f1125d5.png" alt="csdn"><br>2、配置git<br><img src="https://img-blog.csdnimg.cn/img_convert/a2f31791676125ef8f476bfef53b7523.png" alt="csdn"><br><img src="https://img-blog.csdnimg.cn/img_convert/2394508a892404f3d9b0d955e6d2981c.png" alt="csdn"><br>3、使用git<br><img src="https://img-blog.csdnimg.cn/img_convert/4185497e420e6219086673ce4cdab2a8.png" alt="csdn"><br><img src="https://img-blog.csdnimg.cn/img_convert/54ac96bd9976ece7a6c1f5150fe2893d.png" alt="csdn"><br>4、top命令监控系统状态<br><img src="https://img-blog.csdnimg.cn/img_convert/4e964b14d656cf9c93b4085567048097.png" alt="csdn"><br>5、综合监控<br><img src="https://img-blog.csdnimg.cn/img_convert/83a8695156c596f794237ec917fe398f.png" alt="csdn"><br>6、内存监控<br><img src="https://img-blog.csdnimg.cn/img_convert/a0ad588d5b85e5ed2d6152b5042f30e3.png" alt="csdn"><br>7、网络监控<br><img src="https://img-blog.csdnimg.cn/img_convert/10a20fc4bd4df699da7432d5ef6afb4b.png" alt="csdn"><br>8、硬盘IO监控<br><img src="https://img-blog.csdnimg.cn/img_convert/13d3d8b69dfea681676e3776a83f3a3b.png" alt="csdn"><br>9、磁盘空间监控<br><img src="https://img-blog.csdnimg.cn/img_convert/c13db2da875bf6a09fb50a142849186c.png" alt="csdn"><br>10、配置hexo环境<br><img src="https://img-blog.csdnimg.cn/img_convert/0ab4c7c54a7ef910f10dbe0c97ab3959.png" alt="csdn"><br><img src="https://img-blog.csdnimg.cn/img_convert/56e92f7393bd2eb1ce40405f2ada8321.png" alt="csdn"><br><img src="https://img-blog.csdnimg.cn/img_convert/d829ae0e704b96aea1d19f5214f904fe.png" alt="csdn"><br><img src="https://img-blog.csdnimg.cn/img_convert/28a932ad7894b74cb6ef6ce99b237574.png" alt="csdn"><br>11、生成静态网页和运行本地服务器<br><img src="https://img-blog.csdnimg.cn/img_convert/acf78f765b37b3ca5f02fa402719be5b.png" alt="csdn"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/12/29/hello-world/" data-id="clc1csu9k0000qljx2tv08glt" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/12/29/zhaoxu/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          赵旭的Linux大作业
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/12/">December 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/12/29/zhaoxu/">赵旭的Linux大作业</a>
+          </li>
+        
+          <li>
+            <a href="/2022/12/29/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
